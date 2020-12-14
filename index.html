@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treballs RIA David Gonzalbez</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        /*reset*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        body {
+            font-size: 20px;
+        }
+
+        .grid-container {
+            box-sizing: border-box;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            box-sizing: border-box;
+            padding: 0 16px;
+            font-family: 'Playfair Display', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            background-color: #FFCF2C;
+            background-size: cover;
+            background-position: left;
+            background-image: url('img/pattern.png');
+            height: 450px;
+        }
+
+        h1 {
+            font-size: 10vw;
+            line-height: 1em;
+            font-weight: 700;
+        }
+
+        nav {
+            box-sizing: border-box;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 0 16px;
+            height: 149px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: #FFCF9C;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #CA054D;
+        }
+
+        main {
+            padding: 137px 16px 0 16px;
+            font-family: 'Roboto', sans-serif;
+            background: #A4D8B4;
+        }
+
+        section {
+            width: 100%;
+            margin: 0 0 32px 0;
+            display: flex;
+            flex-direction: column;
+            height: 348px;
+            background: white;
+        }
+
+        section figure img {
+            width: 100%;
+            height: 291px;
+            object-position: left;
+            object-fit: cover;
+        }
+
+        section figcaption {
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            width: 100%;
+            height: 414px;
+            font-family: 'Roboto', sans-serif;
+            background: #FFCF9C;
+        }
+        .xxss{
+            display: flex;
+            justify-content: space-around;
+        }
+        .email{
+            text-align: center;
+        }
+        .xxss, .email{
+            background: red;
+            width: 100%;
+        }
+
+
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            body {
+                background: green;
+            }
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            body {
+                background: green;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            body {
+                background: blue;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            body {
+                background: orange;
+            }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            body {
+                background: red;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h1>Recursos<br> Interactius<br> Aplicats</h1>
+            <h2>2gp - EASDAlcoi</h2>
+            <h3>Gonzalbez David</h3>
+        </header>
+        <nav class="menu">
+            <a href="#">projectes</a>
+            <a href="#">contacte</a>
+        </nav>
+        <main class="main">
+             <a href="https://davidesk1.github.io/p0/"><section>
+                <figure>
+                    <img src="img/p1.png.png" alt="">
+                </figure>
+                <figcaption>
+                <ul>
+                    <li>
+                       P0
+                    </li>
+                </ul>    
+                </figcaption>
+            </section></a>
+            <section>
+                <figure>
+                    <img src="img/p1.png.png" alt="">
+                </figure>
+                <figcaption>
+                    <h4>p0_llocweb</h4>
+                </figcaption>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="xxss">
+                <a href="#">insta</a>
+                <a href="#">twitter</a>
+                <a href="#">face</a>
+            </div>
+            <div class="email">
+                <a href="mailto:gonzalbezpd@easdalcoi.es">:
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
